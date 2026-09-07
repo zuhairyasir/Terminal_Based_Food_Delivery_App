@@ -1,0 +1,4 @@
+Burger king|Burger|10|5|1
+Burger king|Drinks|2|1|1
+Burger king|Fries|5|2|0
+Burger king|Wraps|8|5|1

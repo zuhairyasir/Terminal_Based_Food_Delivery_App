@@ -1,0 +1,2 @@
+CUSTOMER|Zain|1|Burger king|Mall 1|Burger,Drinks|12|6|delivered
+RIDER|Zuhair|1|Burger king|Mall 1|Zain|Riwaz Garden|Burger,Drinks|12|delivered

@@ -1,0 +1,34 @@
+food_delivery.cpp
+│
+├── [Globals]
+│   └── nextOrderId
+│
+├── MANUAL DATA STRUCTURES
+│   ├── MenuItem          — menu value object
+│   ├── MenuBST / BSTNode — sorted menu (by item name)
+│   ├── Order             — shared order record
+│   ├── OrderQueue        — FIFO (linked list)
+│   ├── OrderStack        — LIFO (linked list)
+│   └── MaxHeap           — sales ranking for analytics
+│
+├── UTILITIES
+│   └── trim, split, joinItems, parseItems
+│
+├── DOMAIN CLASSES
+│   ├── Customer
+│   ├── Rider
+│   └── Restaurant
+│
+├── APPLICATION
+│   ├── Lookup helpers (findCustomer, findRider, findRestaurant)
+│   ├── FILE HANDLING
+│   │   ├── saveUsers / loadUsers
+│   │   ├── saveMenus / loadMenus
+│   │   ├── saveOrders / loadOrders
+│   │   └── saveHistory / loadHistory
+│   ├── Customer menus (7 actions)
+│   ├── Owner menus (7 actions)
+│   └── Rider menus (4 actions)
+│
+└── MAIN APPLICATION LOOP
+    └── main() → Application::run()

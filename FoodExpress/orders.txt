@@ -1,0 +1,1 @@
+RESTAURANT|Burger king|2|Daood|Main Street|Mall 1|Wraps|8|5|pending

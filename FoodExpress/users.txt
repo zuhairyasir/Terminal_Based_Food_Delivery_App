@@ -1,0 +1,4 @@
+CUSTOMER|Zain|zain123|Riwaz Garden
+CUSTOMER|Daood|daood123|Main Street
+RIDER|Zuhair|zuhair123|Ravi
+OWNER|King|king123|Mall 1|Burger king|12|2
