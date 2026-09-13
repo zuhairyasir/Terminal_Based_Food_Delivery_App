@@ -1,18 +1,18 @@
 # Terminal-Based Food Delivery Application
 
-A terminal-based food delivery platform built in C++, simulating a full delivery ecosystem across three user roles — Customers, Restaurant Owners, and Riders — with menu browsing, order placement, live queue tracking, delivery history, and sales analytics.
+A terminal based food delivery platform built in C++, simulating a full delivery ecosystem across three user roles namely Customers, Restaurant Owners, and Riders with menu browsing, order placement, live queue tracking, delivery history, and sales analytics.
 
-Built as a lab project for a Data Structures and Algorithms course, with a deliberate focus on implementing every core data structure by hand — strictly avoiding STL containers (aside from `std::vector` for dynamic arrays) — to demonstrate real understanding of memory management, pointer manipulation, and underlying algorithmic mechanics.
+Built as a lab project for a Data Structures and Algorithms course, with a deliberate focus on implementing every core data structure by hand strictly avoiding STL containers (aside from `std::vector` for dynamic arrays) to demonstrate real understanding of memory management, pointer manipulation, and underlying algorithmic mechanics.
 
 ---
 
 ## What it does
 
-- **Role-based access** for Customers, Restaurant Owners, and Riders, each with their own portal
-- **Menu browsing and search** — restaurant menus are kept in alphabetical order and searchable platform-wide
+- **Role based access** for Customers, Restaurant Owners, and Riders, each with their own portal
+- **Menu browsing and search** — restaurant menus are kept in alphabetical order and searchable platform wide
 - **Order placement** — customers select multiple items, with total cost and estimated prep time calculated automatically
 - **FIFO order processing** — pending orders are handled strictly in the order they were placed
-- **Live wait-time tracking** — customers can see their estimated wait based on every order ahead of them in the queue
+- **Live wait time tracking** — customers can see their estimated wait based on every order ahead of them in the queue
 - **Delivery assignment** — orders are routed to the rider with the fewest current tasks
 - **Order and delivery history** — customers and riders can review their most recent activity first
 - **Automated sales analytics** — restaurant owners get an instant "Most Sold Items" report
@@ -116,7 +116,7 @@ g++ -o food_delivery food_delivery.cpp -std=c++11
 ./food_delivery
 ```
 
-On first run, the system creates/reads `users.txt`, `menu.txt`, `orders.txt`, and `history.txt` in the working directory — make sure the program has write access there. All manual data structures (BSTs, linked lists) are rebuilt from these files at startup and safely destroyed on exit to prevent memory leaks.
+On first run, the system creates/reads `users.txt`, `menu.txt`, `orders.txt`, and `history.txt` in the working directory make sure the program has write access there. All manual data structures are rebuilt from these files at startup and safely destroyed on exit to prevent memory leaks.
 
 ---
 
