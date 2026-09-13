@@ -1,0 +1,56 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables (Windows, Linux, macOS)
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Build directories
+build/
+bin/
+obj/
+out/
+cmake-build-*/
+
+# Visual Studio & VS Code configs
+.vscode/
+.vs/
+*.sln
+*.vcxproj*
+
+# Debugging symbols and dumps
+*.dSYM/
+*.suo
+*.user
+*.pdb
+*.ilk
+
+# OS generated files
+.DS_Store
+Thumbs.db
